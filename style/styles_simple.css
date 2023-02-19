@@ -1,0 +1,149 @@
+.middle-background
+{
+    position: absolute;
+    width: 1210px;
+    height: 682px;
+    right: 0px;
+    top: -26px;
+    background: #737FED;
+}
+
+.options
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 26px;
+    position: absolute;
+    width: 620px;
+    height: 146px;
+    left: 100px;
+    top: 0px;
+    mix-blend-mode: normal;
+}
+
+
+.menu
+{
+    width: 220px;
+    height: 126px;
+    top: 100px;
+    font-family: 'Actor';
+    font-style: italic bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu:hover
+{
+    color: #737FED;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.title
+{
+    position: absolute;
+    width: 476px;
+    height: 204px;
+    left: 152px;
+    top: 213px;
+
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 68px;
+
+    color: #010101;
+}
+
+
+.simple-calculator
+{
+    position: absolute;
+    width: 519px;
+    height: 772px;
+    left: 725px;
+    top: 583px; 
+    border-radius: 3px;
+    background-color: gray;
+    border-radius: 25px;
+}
+
+.data
+{
+    flex-direction:column;
+    align-items: center;
+    padding: 55px;
+    position: absolute;
+    top: 250px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.data textarea
+{
+    width: 412px;
+    height: 66px;
+    left: 50px;
+    text-align: center;
+    resize: none;
+    margin-bottom: 25px;
+}
+
+.data-amount
+{
+    top: 447px; 
+}
+
+.data-interest
+{
+    top: 131px;
+}
+
+.data-year
+{
+    top: 219px;
+}
+
+.container-buttons button
+{
+    font-size: large;
+    position: absolute;
+    flex-direction: row;
+    height: 74px;
+    top: 630px;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.calculate
+{
+    width: 206px;
+    left: 50px;
+}
+
+.calculate:hover
+{
+    color: aliceblue;
+    background-color: #000;
+}
+
+.clean
+{
+    width: 200px;
+    left: 278px;
+}
+
+.clean:hover
+{
+    color: aliceblue;
+    background-color: #737FED;
+}

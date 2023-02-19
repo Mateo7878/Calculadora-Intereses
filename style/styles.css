@@ -1,0 +1,87 @@
+.middle-background
+{
+    position: absolute;
+    width: 1210px;
+    height: 682px;
+    right: 0px;
+    top: -26px;
+    background: #737FED;
+}
+
+.options
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 26px;
+    position: absolute;
+    width: 620px;
+    height: 146px;
+    left: 100px;
+    top: 0px;
+    mix-blend-mode: normal;
+}
+
+
+.menu
+{
+    width: 220px;
+    height: 126px;
+    top: 100px;
+    font-family: 'Actor';
+    font-style: italic bold;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu:hover
+{
+    color: #737FED;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.calculadora
+{
+    position: absolute;
+    width: 1163.71px;
+    height: 646.49px;
+    left: -220.41px;
+    top: 45.5px;
+    background: url(/img/calculadora.png);
+    transform: rotate(17.97deg);
+}
+
+.personaje
+{
+    position: absolute;
+    width: 467px;
+    height: 500px;
+    left: 550.41px;
+    top: 45.5px;
+    background: url(/img/personaje.png);
+    background-repeat: no-repeat;
+}
+
+.title
+{
+    position: absolute;
+    width: 476px;
+    height: 204px;
+    left: 152px;
+    top: 213px;
+
+    font-family: 'Alatsi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 68px;
+
+    color: #010101;
+}
