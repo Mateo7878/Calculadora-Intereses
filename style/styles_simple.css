@@ -1,8 +1,8 @@
 .middle-background
 {
     position: absolute;
-    width: 1210px;
-    height: 682px;
+    width: 1100px;
+    height: 1869px;
     right: 0px;
     top: -26px;
     background: #737FED;
@@ -70,11 +70,12 @@
     position: absolute;
     width: 519px;
     height: 772px;
-    left: 725px;
-    top: 583px; 
+    left: 835px;
+    top: 1073px; 
     border-radius: 3px;
     background-color: gray;
     border-radius: 25px;
+    border-color: black;
 }
 
 .data
@@ -96,6 +97,8 @@
     resize: none;
     margin-bottom: 25px;
     border-radius: 8px;
+
+    font-size: x-large;
 }
 
 .data-amount
@@ -115,6 +118,7 @@
 
 .container-buttons button
 {
+    margin-top: 25px;
     font-size: large;
     position: absolute;
     flex-direction: row;
@@ -152,15 +156,15 @@
 .title-calculator
 {
     position: absolute;
-    width: 173px;
+    width: 183px;
     height: 24px;
     left: 10px;
     top: 10px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 35px;
     text-decoration: underline;
 }
 
@@ -174,4 +178,28 @@
     background: #fff;
     border-radius: 8px;
     resize: none;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+i
+{
+    width: 10px;
+    height: 10px;
+}
+
+#money
+{
+    color: greenyellow;
+}
+
+#percen
+{
+    color: lightblue;
+}
+
+#calendar
+{
+    color: coral;
 }

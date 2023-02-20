@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Interes Simple</title>
     <link rel="stylesheet" href="/style/styles_simple.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="middle-background">
@@ -23,12 +24,12 @@
         <div class="simple-calculator">
             <label class="title-calculator">Interés Simple</label>
             <div class="container-data">
-                <input class="data-result" id="result" type="text" readonly>
+               <input class="data-result" id="result" type="text"  value="0" readonly>
             </div>
             <div class="data">
-                <input [type="number"]::-webkit-inner-spin-button id="amount" class="data-amount" placeholder="Capital Inicial"></input>
-                <input [type="number"]::-webkit-inner-spin-button  id="percentage" class="data-interest" placeholder="Interes"></input>
-                <input [type="number"]::-webkit-inner-spin-button  id="year" class="data-year" placeholder="Años"></input>
+                <i id="money" class="fa-solid fa-money-bill"></i><input [type="number"]::-webkit-inner-spin-button id="amount" class="data-amount" placeholder="Capital Inicial($)"></input>
+                <i id="percen" class="fa-solid fa-percent"></i><input [type="number"]::-webkit-inner-spin-button  id="percentage" class="data-interest" placeholder="Interes(%)"></input>
+                <i id="calendar" class="fa-solid fa-calendar-days"></i><input [type="number"]::-webkit-inner-spin-button  id="year" class="data-year" placeholder="Años(Y)"></input>
             </div>
             <div class="container-buttons">
                 <button id="calculate" class="calculate">Calcular</button>

@@ -4,7 +4,6 @@ const amount = document.getElementById('amount');
 const percentage = document.getElementById('percentage');
 const year = document.getElementById('year');
 const result = document.getElementById('result');
-const values = /[0-9]/gi
 
 function clean()
 {
@@ -24,10 +23,6 @@ function calculate()
 
     document.getElementById("result").value = interest
 }
-
-
-
-console.log(calculate())
 
 
 buttonClean.addEventListener("click", clean);
