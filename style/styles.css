@@ -65,7 +65,7 @@
     height: 500px;
     left: 550.41px;
     top: 45.5px;
-    background: url(/img/personaje.png);
+    background: url(/img/personaje2.png);
     background-repeat: no-repeat;
 }
 
@@ -84,4 +84,20 @@
     line-height: 68px;
 
     color: #010101;
+}
+
+.introduction{
+    position: absolute;
+    width: 380px;
+    height: 22px;
+    left: 146px;
+    top: 448px;
+
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #676767;
+
 }
