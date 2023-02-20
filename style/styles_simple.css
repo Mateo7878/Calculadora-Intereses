@@ -203,3 +203,52 @@ i
 {
     color: coral;
 }
+
+
+.info_simple
+{
+    position: absolute;
+    width: 785px;
+    height: 102px;
+    left: 146px;
+    top: 330px;
+
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 27px;
+    color: #010101;
+}
+
+ul
+{
+    position: absolute;
+    width: 785px;
+    height: 102px;
+    left: 146px;
+    top: 430px;
+
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 27px;
+    color: #010101;
+}
+
+.formula
+{
+    position: absolute;
+    width: 785px;
+    height: 102px;
+    left: 146px;
+    top: 550px;
+
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 27px;
+    color: #010101;
+}
