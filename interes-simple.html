@@ -21,17 +21,21 @@
 
     <div class="container-calculator">
         <div class="simple-calculator">
+            <label class="title-calculator">Interés Simple</label>
+            <div class="container-data">
+                <input class="data-result" id="result" type="text" readonly>
+            </div>
             <div class="data">
-                <textarea class="data-amount" placeholder="Capital Inicial"></textarea>
-                <textarea class="data-interest" placeholder="Interes"></textarea>
-                <textarea class="data-year" placeholder="Años"></textarea>
+                <input [type="number"]::-webkit-inner-spin-button id="amount" class="data-amount" placeholder="Capital Inicial"></input>
+                <input [type="number"]::-webkit-inner-spin-button  id="percentage" class="data-interest" placeholder="Interes"></input>
+                <input [type="number"]::-webkit-inner-spin-button  id="year" class="data-year" placeholder="Años"></input>
             </div>
             <div class="container-buttons">
-                <button class="calculate">Calcular</button>
-                <button class="clean">Limpiar</button>
+                <button id="calculate" class="calculate">Calcular</button>
+                <button id="clean" class="clean">Limpiar</button>
             </div>
         </div>
     </div>
-
+    <script src="/logic/Simple-Interest.js"></script>
 </body>
 </html>

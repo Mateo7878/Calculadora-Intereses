@@ -87,7 +87,7 @@
     border-radius: 4px 4px 0px 0px;
 }
 
-.data textarea
+.data input
 {
     width: 412px;
     height: 66px;
@@ -95,6 +95,7 @@
     text-align: center;
     resize: none;
     margin-bottom: 25px;
+    border-radius: 8px;
 }
 
 .data-amount
@@ -146,4 +147,31 @@
 {
     color: aliceblue;
     background-color: #737FED;
+}
+
+.title-calculator
+{
+    position: absolute;
+    width: 173px;
+    height: 24px;
+    left: 10px;
+    top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-decoration: underline;
+}
+
+.data-result
+{
+    position: absolute;
+    width: 412px;
+    height: 138px;
+    left: 50px;
+    top: 100px;
+    background: #fff;
+    border-radius: 8px;
+    resize: none;
 }
