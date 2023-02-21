@@ -156,15 +156,15 @@
 .title-calculator
 {
     position: absolute;
-    width: 183px;
-    height: 24px;
+    width: 285px;
+    height: 135px;
     left: 10px;
     top: 10px;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700px;
+    font-weight: 800px;
     font-size: 30px;
-    line-height: 35px;
+    line-height: 45px;
     text-decoration: underline;
 }
 
@@ -268,4 +268,3 @@ ul
     height: 550px;
     width: 450px;
 }
-

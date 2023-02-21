@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Interes Simple</title>
-    <link rel="stylesheet" href="/style/styles_simple.css">
+    <title>Calculadora de Interes Compuesto</title>
+    <link rel="stylesheet" href="/style/styles_compund.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -18,7 +18,7 @@
             <a class="menu" href="/interes-simple.html">Calcular Interes Simple</a>
             <a class="menu" href="/interes-compuesto.html">Calcular Interes Compuesto</a>
     </nav>
-    <h1 class="title">Interés Simple</h1>
+    <h1 class="title">Interés Compuesto</h1>
     <p class="info_simple">Representa los intereses que genera un capital inicial dentro de un período de tiempo
         La cantidad de interés depende de las siguientes variables: 
      </p>
@@ -36,14 +36,14 @@
  
     <div class="container-calculator">
         <div class="simple-calculator">
-            <label class="title-calculator">Interés Simple</label>
+            <label class="title-calculator">Interés Compuesto</label>
             <div class="container-data">
                <input class="data-result" id="result" type="text"  value="0" readonly>
             </div>
             <div class="data">
                 <i id="money" class="fa-solid fa-money-bill"></i><input [type="number"]::-webkit-inner-spin-button id="amount" class="data-amount" placeholder="Capital Inicial($)"></input>
                 <i id="percen" class="fa-solid fa-percent"></i><input [type="number"]::-webkit-inner-spin-button  id="percentage" class="data-interest" placeholder="Interes(%)"></input>
-                <i id="calendar" class="fa-solid fa-calendar-days"></i><input [type="number"]::-webkit-inner-spin-button  id="year" class="data-year" placeholder="Años(Y)"></input>
+                <i id="calendar" class="fa-solid fa-calendar-days"></i><input [type="number"]::-webkit-inner-spin-button  id="year" class="data-year" placeholder="Periodo(Y)"></input>
             </div>
             <div class="container-buttons">
                 <button id="calculate" class="calculate">Calcular</button>
@@ -51,6 +51,6 @@
             </div>
         </div>
     </div>
-    <script src="/logic/Simple-Interest.js"></script>
+    <script src="/logic/Compound-Interest.js"></script>
 </body>
 </html>
