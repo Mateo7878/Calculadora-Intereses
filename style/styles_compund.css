@@ -217,7 +217,7 @@ i
     font-style: normal;
     font-weight: 700px;
     font-size: 30px;
-    line-height: 27px;
+    line-height: 37px;
     color: #010101;
 }
 
@@ -227,7 +227,7 @@ ul
     width: 785px;
     height: 102px;
     left: 146px;
-    top: 430px;
+    top: 1000px;
 
     font-family: 'Actor';
     font-style: normal;
@@ -265,6 +265,6 @@ ul
 {
     opacity: 1 !important;
     transform: scale(1.0);
-    height: 550px;
+    height: 350px;
     width: 450px;
 }
