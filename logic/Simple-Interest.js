@@ -19,8 +19,7 @@ function calculate()
     let duration = document.getElementById('year').value;
     let percen = document.getElementById('percentage').value;
 
-    let interest = capital*duration*percen;
-    interest.toPrecision(4)
+    let interest = (capital*duration*percen).toPrecision(7);
 
     document.getElementById("result").value = interest;
 }
