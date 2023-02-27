@@ -15,14 +15,14 @@ function clean()
 
 function calculate()
 {
-    let capital = document.getElementById('amount').value;
-    let duration = document.getElementById('year').value;
+    let rent = document.getElementById('amount').value;
+    let number_of_pays = document.getElementById('year').value;
     let percen = document.getElementById('percentage').value;
-    
-    interest = (capital*(Math.pow((Number(percen) + Number(1)),duration))).toPrecision(7)
-    interest -= capital;
+    let power = Math.pow(Number(1) + Number(percen), number_of_pays);
+    let first_cal = (power - Number(1)) / percen;
+    let fv = (rent * (Number(1) + Number(percen))) * first_cal;
 
-    document.getElementById("result").value = interest;
+    document.getElementById("result").value = fv.toFixed(2);
 }
 
 

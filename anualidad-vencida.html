@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora de Interes Compuesto</title>
-    <link rel="stylesheet" href="/style/styles_compund.css">
+    <title>Calculadora de Anualidad Vencida</title>
+    <link rel="stylesheet" href="/style/styles_due_annuity.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -21,32 +21,30 @@
         <a class="menu" href="/anualidad-aniticipada.html">Calculadora de Anualidad Anticipada</a>
         <a class="menu" href="/anualidad-diferida.html">Calculadora de Anualidad Diferida</a>
     </nav>
-    <h1 class="title">Interés Compuesto</h1>
-    <p class="info_simple">El interés compuesto es una forma de calcular los intereses sobre una cantidad de dinero que incluye tanto el capital inicial como los intereses generados durante un periodo de tiempo determinado.
-        La cantidad de interés depende de las siguientes variables:  
+    <h1 class="title">Anualidad Vencida</h1>
+    <p class="info_simple">La calculadora de Anualidad de Valor Futuro de Anualidad Vencida le ayuda a calcular el valor futuro
+        de la anualidad a pagar, que es el valor futuro de un flujo de pagos iguales y consecutivos (anualidad), asumiendo que los pagos se invierten a una tasa de interés dada. 
+        La fórmula de cálculo del valor futo de la anualidad vencida es la siguiente:  
      </p>
      <ul>
-         <li>Capital inicial: cantidad que se da en el préstamo.</li>
-         <li>Plazo: tiempo durante el cual se presta el capital.</li>
-         <li>Tasa de interés: es el costo que una institución financiera cobra por prestar dinero. </li>
+         <li>VF: valor futuro.</li>
+         <li>R: renta.</li>
+         <li>n: número de pagos. </li>
+         <li>i: tiempo de interés por periodo de capitalización.</li>
      </ul>
      <div class="formula">
-         <p>
-             Para realizar el cálculo de este interés compuesto se utiliza la siguiente fórmula:
-         </p>
-         <img src="/img/formula-interes-compuesto.png" alt="" class="formula-interes">
+         <img src="/img/anualidad_vencida.png" alt="" class="formula-interes">
      </div>
- 
     <div class="container-calculator">
         <div class="simple-calculator">
-            <label class="title-calculator">Interés Compuesto</label>
+            <label class="title-calculator">Anualidad Vencida</label>
             <div class="container-data">
                <input class="data-result" id="result" type="text"  value="0" readonly>
             </div>
             <div class="data">
-                <i id="money" class="fa-solid fa-money-bill"></i><input [type="number"]::-webkit-inner-spin-button id="amount" class="data-amount" placeholder="Capital Inicial($)"></input>
+                <i id="money" class="fa-solid fa-money-bill"></i><input [type="number"]::-webkit-inner-spin-button id="amount" class="data-amount" placeholder="Renta o Pago($)"></input>
                 <i id="percen" class="fa-solid fa-percent"></i><input [type="number"]::-webkit-inner-spin-button  id="percentage" class="data-interest" placeholder="Interes(%)"></input>
-                <i id="calendar" class="fa-solid fa-calendar-days"></i><input [type="number"]::-webkit-inner-spin-button  id="year" class="data-year" placeholder="Periodo(Y)"></input>
+                <i id="calendar" class="fa-solid fa-calendar-days"></i><input [type="number"]::-webkit-inner-spin-button  id="year" class="data-year" placeholder="Número de pagos"></input>
             </div>
             <div class="container-buttons">
                 <button id="calculate" class="calculate">Calcular</button>
@@ -54,6 +52,6 @@
             </div>
         </div>
     </div>
-    <script src="/logic/Compound-Interest.js"></script>
+    <script src="/logic/due_annuity.js"></script>
 </body>
 </html>

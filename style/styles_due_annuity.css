@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 26px;
-    width: 51.8%;
+    width: 52.3%;
     height: 120px;
     left: -2px;
     top: 0px;
@@ -29,8 +29,8 @@
 
 .menu
 {
-    width: 33%;
-    height: 100%;
+    width: 30%;
+    height: 95%;
     top: 100px;
     font-family: 'Actor';
     font-style: italic bold;
@@ -53,14 +53,14 @@
 {
     position: absolute;
     width: 476px;
-    height: 204px;
+    height: 200px;
     left: 152px;
     top: 213px;
 
     font-family: 'Alatsi';
     font-style: normal;
     font-weight: 400;
-    font-size: 63px;
+    font-size: 62px;
     line-height: 68px;
 
     color: #010101;
@@ -210,8 +210,8 @@ i
 .info_simple
 {
     position: absolute;
-    width: 785px;
-    height: 102px;
+    width: 780px;
+    height: 100px;
     left: 146px;
     top: 330px;
 
@@ -229,7 +229,7 @@ ul
     width: 785px;
     height: 102px;
     left: 146px;
-    top: 1000px;
+    top: 900px;
 
     font-family: 'Actor';
     font-style: normal;
@@ -243,9 +243,9 @@ ul
 {
     position: absolute;
     width: 785px;
-    height: 102px;
+    height: 100px;
     left: 146px;
-    top: 550px;
+    top: 590px;
 
     font-family: 'Actor';
     font-style: normal;
