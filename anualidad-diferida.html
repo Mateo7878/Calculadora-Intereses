@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Anualidad Anticipada</title>
+    <link rel="stylesheet" href="/style/styles_deferred.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="middle-background">
+        <div class="container">
+        </div>
+    </div>
+    <nav class="options">
+        <a class="menu" href="/index.html">Inicio</a>
+        <a class="menu" href="/interes-simple.html">Calcular Interes Simple</a>
+        <a class="menu" href="/interes-compuesto.html">Calcular Interes Compuesto</a>
+        <a class="menu" href="/anualidad-vencida.html">Calculadora de Anualidad Vencida</a>
+        <a class="menu" href="/anualidad-aniticipada.html">Calculadora de Anualidad Anticipada</a>
+        <a class="menu" href="/anualidad-diferida.html">Calculadora de Anualidad Diferida</a>
+    </nav>
+    <h1 class="title">Anualidad Diferida</h1>
+    <p class="info_simple">La Anualidad Diferida  hace referencia a una serie de pagos iguales que se realizan en períodos de tiempo, con la concepción de que el primer pago se lleve a cabo cierto tiempo después de firmar el convenio de compra. 
+        El cálculo se expresaría de la siguiente manera:
+    </p>
+     <ul>
+         <li>M: monto de la anualidad.</li>
+         <li>R: renta.</li>
+         <li>n: número de pagos. </li>
+         <li>i: tiempo de interés por periodo de capitalización.</li>
+     </ul>
+     <div class="formula">
+         <img src="/img/anualidad_diferida.png" alt="" class="formula-interes">
+     </div>
+    <div class="container-calculator">
+        <div class="simple-calculator">
+            <label class="title-calculator">Anualidad Diferida</label>
+            <div class="container-data">
+               <input class="data-result" id="result" type="text"  value="0" readonly>
+            </div>
+            <div class="data">
+                <i id="money" class="fa-solid fa-money-bill"></i><input [type="number"]::-webkit-inner-spin-button id="amount" class="data-amount" placeholder="Renta o Pago($)"></input>
+                <i id="percen" class="fa-solid fa-percent"></i><input [type="number"]::-webkit-inner-spin-button  id="percentage" class="data-interest" placeholder="Interes(%)"></input>
+                <i id="calendar" class="fa-solid fa-calendar-days"></i><input [type="number"]::-webkit-inner-spin-button  id="year" class="data-year" placeholder="Número de pagos"></input>
+            </div>
+            <div class="container-buttons">
+                <button id="calculate" class="calculate">Calcular</button>
+                <button id="clean" class="clean">Limpiar</button>
+            </div>
+        </div>
+    </div>
+    <script src="/logic/Anticipated_annuity.js"></script>
+</body>
+</html>
